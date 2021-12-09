@@ -6,5 +6,10 @@
       "email": "arissaputra362@gmail.com"
     }
   ],
-  "require": {}
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "ti2018b\\phpmvc": "./"
+    }
+  }
 }
