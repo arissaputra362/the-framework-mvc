@@ -1,14 +1,14 @@
 <?php
 
-namespace app\app\form;
+namespace ti2018b\phpmvc\form;
 
-use app\app\Model;
+use ti2018b\phpmvc\Model;
 
 /**
  * Class InputField
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app\form
+ * @package ti2018b\phpmvc\form
  */
 class InputField extends BaseField
 {
@@ -21,7 +21,7 @@ class InputField extends BaseField
     /**
      * Field constructor
      * 
-     * @param \app\app\Model $model
+     * @param \ti2018b\phpmvc\Model $model
      * @param string         $attribute
      */
     public function __construct(Model $model, string $attribute)

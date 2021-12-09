@@ -1,15 +1,15 @@
 <?php
 
-namespace app\app;
+namespace ti2018b\phpmvc;
 
-use app\app\exception\ForbiddenException;
-use app\app\exception\NotFoundException;
+use ti2018b\phpmvc\exception\ForbiddenException;
+use ti2018b\phpmvc\exception\NotFoundException;
 
 /**
  * Class Router
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app
+ * @package ti2018b\phpmvc
  */
 class Router
 {
@@ -20,8 +20,8 @@ class Router
     /**
      * Router constructor
      * 
-     * @param \app\app\Request $request
-     * @param \app\app\Response $response
+     * @param \ti2018b\phpmvc\Request $request
+     * @param \ti2018b\phpmvc\Response $response
      */
     public function __construct(Request $request, Response $response)
     {
@@ -53,7 +53,7 @@ class Router
         }
 
         if (is_array($callback)) {
-            /** @var \app\app\Controller $controller */
+            /** @var \ti2018b\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller;
             $controller->action = $callback[1];

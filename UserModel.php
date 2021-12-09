@@ -1,14 +1,14 @@
 <?php
 
-namespace app\app;
+namespace ti2018b\phpmvc;
 
-use app\app\db\DbModel;
+use ti2018b\phpmvc\db\DbModel;
 
 /**
  * Class UserModel
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app
+ * @package ti2018b\phpmvc
  */
 abstract class UserModel extends DbModel
 {

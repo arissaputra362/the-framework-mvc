@@ -1,14 +1,14 @@
 <?php
 
-namespace app\app;
+namespace ti2018b\phpmvc;
 
-use app\app\middlewares\BaseMiddleware;
+use ti2018b\phpmvc\middlewares\BaseMiddleware;
 
 /**
  * Class Controller
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app
+ * @package ti2018b\phpmvc
  */
 class Controller
 {
@@ -16,7 +16,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \app\app\middlewares\BaseMiddleware[]
+     * @var \ti2018b\phpmvc\middlewares\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -38,7 +38,7 @@ class Controller
     /**
      * Get the value of middlewares
      *
-     * @return  \app\app\middlewares\BaseMiddleware[]
+     * @return  \ti2018b\phpmvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {
@@ -48,7 +48,7 @@ class Controller
     /**
      * Set the value of middlewares
      *
-     * @param  \app\app\middlewares\BaseMiddleware[]  $middlewares
+     * @param  \ti2018b\phpmvc\middlewares\BaseMiddleware[]  $middlewares
      *
      * @return  self
      */

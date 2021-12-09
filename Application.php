@@ -1,15 +1,15 @@
 <?php
 
-namespace app\app;
+namespace ti2018b\phpmvc;
 
 use app\models\User;
-use app\app\db\Database;
+use ti2018b\phpmvc\db\Database;
 
 /**
  * Class Application
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app
+ * @package ti2018b\phpmvc
  */
 class Application
 {
@@ -68,7 +68,7 @@ class Application
     }
 
     /**
-     * @return \app\app\Controller
+     * @return \ti2018b\phpmvc\Controller
      */
     public function getController(): Controller
     {
@@ -76,7 +76,7 @@ class Application
     }
 
     /**
-     * @return \app\app\Controller $controller
+     * @return \ti2018b\phpmvc\Controller $controller
      */
     public function setController(Controller $controller): void
     {

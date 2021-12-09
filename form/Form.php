@@ -1,15 +1,15 @@
 <?php
 
-namespace app\app\form;
+namespace ti2018b\phpmvc\form;
 
-use app\app\Model;
-use app\app\form\Field;
+use ti2018b\phpmvc\Model;
+use ti2018b\phpmvc\form\Field;
 
 /**
  * Class Form
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app\form
+ * @package ti2018b\phpmvc\form
  */
 class Form
 {

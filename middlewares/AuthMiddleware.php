@@ -1,15 +1,15 @@
 <?php
 
-namespace app\app\middlewares;
+namespace ti2018b\phpmvc\middlewares;
 
-use app\app\Application;
-use app\app\exception\ForbiddenException;
+use ti2018b\phpmvc\Application;
+use ti2018b\phpmvc\exception\ForbiddenException;
 
 /**
  * Class Form
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app\middlewares
+ * @package ti2018b\phpmvc\middlewares
  */
 class AuthMiddleware extends BaseMiddleware
 {

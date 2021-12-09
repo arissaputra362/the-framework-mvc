@@ -1,12 +1,12 @@
 <?php
 
-namespace app\app;
+namespace ti2018b\phpmvc;
 
 /**
  * Class View
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app
+ * @package ti2018b\phpmvc
  */
 class View
 {

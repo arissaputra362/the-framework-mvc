@@ -1,13 +1,13 @@
 <?php
 
-namespace app\app\form;
+namespace ti2018b\phpmvc\form;
 
 
 /**
  * Class TextareaField
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app\form
+ * @package ti2018b\phpmvc\form
  */
 class TextareaField extends BaseField
 {

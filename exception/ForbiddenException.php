@@ -1,6 +1,6 @@
 <?php
 
-namespace app\app\exception;
+namespace ti2018b\phpmvc\exception;
 
 use Exception;
 
@@ -8,7 +8,7 @@ use Exception;
  * Class ForbiddenException
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app\exception
+ * @package ti2018b\phpmvc\exception
  */
 class ForbiddenException extends \Exception
 {

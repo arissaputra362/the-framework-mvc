@@ -1,14 +1,14 @@
 <?php
 
-namespace app\app\db;
+namespace ti2018b\phpmvc\db;
 
-use app\app\Application;
+use ti2018b\phpmvc\Application;
 
 /**
  * Class Database
  * 
  * @author Aris Saputra <arissaputra362@gmail.com>
- * @package app\app
+ * @package ti2018b\phpmvc
  */
 class Database
 {
