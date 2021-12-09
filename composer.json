@@ -9,7 +9,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "ti2018b\\phpmvc": "./"
+      "ti2018b\\phpmvc\\": "./"
     }
   }
 }
